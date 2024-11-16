@@ -1,14 +1,14 @@
 :root {
     background-color: rgb(135, 206, 235);
 }
-div :first-child {
+div > :first-child {
     color: white;
     background-color: black;
 }
-div :nth-child(2){
+div > :nth-child(2){
 	color:initial;
 }
-div :last-child{
+div > :last-child{
 	color:red;
 }
 ul li {
