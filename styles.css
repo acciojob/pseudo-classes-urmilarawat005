@@ -16,8 +16,17 @@ ul li {
     background-color: gray;
     width: 50%;
     padding: 10px;
-    list-style-type: none; /* Remove default list bullet */
+    /* list-style-type: none; /* Remove default list bullet */ */
 }
 ul li:nth-child(odd) {
     background-color: white;
+}
+ul li:nth-child(3) {
+    background-color: pink;
+}
+ul li:nth-child(1) {
+    font-size:22px;
+}
+ul li:nth-child(5) {
+    font-size:22px;
 }
